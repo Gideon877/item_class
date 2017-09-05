@@ -1,8 +1,5 @@
 import java.util.*;
 
-
-
-
 public class itemCls
 {
     private String name;
@@ -60,6 +57,8 @@ public class itemCls
 
 
         /**
+        ----------- Pseudocode ----------------
+
         create a method for option 1;
             display what option was chosen : An item is created.
             request values ;
@@ -85,12 +84,6 @@ public class itemCls
 
 
         */
-        // while (option <= 0 || option > 5) {
-        //     System.out.println("Not a valid choice!\nPlease try again...\n");
-        //     System.out.println ( "1) Option 1: An item is created\n2) Option 2: An item is edited\n3) Option 3: An item is diplayed\n4) Option 4: An item is bought\n5) Option 5: EXIT" );
-        //     System.out.print("Select option: ");
-        //     option = keyboard.nextInt();
-        // }
 
         menu();
         // System.out.println(option);
